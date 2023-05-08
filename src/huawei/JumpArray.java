@@ -2,7 +2,6 @@ package huawei;
 
 public class JumpArray {
     public static void main(String[] args) {
-//        int[] array = {2,3,1,1,4};
         int[] array = {3, 2, 1, 0, 4};
         System.out.println(dfs(0, array[0], array));
     }
