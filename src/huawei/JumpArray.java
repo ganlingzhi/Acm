@@ -6,6 +6,7 @@ public class JumpArray {
         System.out.println(dfs(0, array[0], array));
     }
 
+    //test
     static Boolean dfs(int currentIndex, int jump, int[] array) {
         for (int i = currentIndex + 1; i <= currentIndex + jump; i++) {
             System.out.println("i=" + i + "array[i]=" + array[i]);
