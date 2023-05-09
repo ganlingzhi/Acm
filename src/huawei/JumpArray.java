@@ -3,10 +3,11 @@ package huawei;
 public class JumpArray {
     public static void main(String[] args) {
         int[] array = {3, 2, 1, 0, 4};
+        Boolean test = canJump(array);
+        System.out.println(test);
         System.out.println(dfs(0, array[0], array));
     }
 
-    //test
     static Boolean dfs(int currentIndex, int jump, int[] array) {
         for (int i = currentIndex + 1; i <= currentIndex + jump; i++) {
             System.out.println("i=" + i + "array[i]=" + array[i]);
